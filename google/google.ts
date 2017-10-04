@@ -12,7 +12,7 @@ export class GoogleProvider {
 
   constructor(public http: Http,private googlePlus: GooglePlus,private nativeStorage: NativeStorage) {
     // initialize webclientId gotten from google console
-    this.webClientId = "469977782542-pkjkf934b9lgkee5lcsjhcdn55t4bdlc.apps.googleusercontent.com";
+    this.webClientId = "your_web_client_id";
   }
 
   login(){
